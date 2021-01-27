@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JD Bank</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-area" id="login-area">
+        <h1 class="text-center">Welcome to JD Bank</h1>
+        <div class="submit-area shadow">
+            <h4>Login</h4>
+            <input type="text" placeholder="Name" class="form-control">
+            <br>
+            <input type="password" name="" id="" placeholder="Password" class="form-control">
+            <br>
+            <button class="btn btn-success" id="login">Enter</button>
+        </div>
+    </div>
+
+    <div id="transation-area">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="deposite">
+                    <h5>Deposite</h5>
+                    <h2>$ <span id="currentDeposite">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="withdraw">
+                    <h5>Withdraw</h5>
+                    <h2>$ <span id="currentWithdraw">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="balance">
+                    <h5>Balance</h5>
+                    <h2>$ <span id="currentBalance">1200</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class='col-md-6'>
+                <div class="box shadow">
+                    <h4>Deposite</h4>
+                    <input type="number" class="form-control" placeholder="$ you want to deposite" id="depositeField">
+                    <br>
+                    <button class="btn btn-success" id="depositeBtn">Deposite</button>
+                </div>
+            </div>
+            <div class ='col-md-6'>
+                <div class="box shadow">
+                    <h4>Withdraw</h4>
+                    <input type="number" class="form-control" placeholder="$ you want to withdraw" id="withdrawField">
+                    <br>
+                    <button class="btn btn-success" id="withdrawBtn">Withdraw</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
